@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#06070B"/>
     </linearGradient>
 
-    <!-- Liquid Water Flowing Gradient for Border (Continuous Fluid Light Stream) -->
+    <!-- Liquid Flowing Gradient for Border (Continuous Laser Light Stream) -->
     <linearGradient id="waterFlow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F2FE">
         <animate attributeName="stop-color" values="#00F2FE;#4FACFE;#6EE7B7;#9333EA;#00F2FE" dur="6s" repeatCount="indefinite"/>
@@ -18,13 +18,6 @@
       <stop offset="100%" stop-color="#6EE7B7">
         <animate attributeName="stop-color" values="#6EE7B7;#00F2FE;#4FACFE;#9333EA;#6EE7B7" dur="6s" repeatCount="indefinite"/>
       </stop>
-    </linearGradient>
-
-    <!-- Flowing Water Wave Gradient (Liquid Animation in Background) -->
-    <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#4FACFE" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#9333EA" stop-opacity="0.10"/>
     </linearGradient>
 
     <!-- Subtle Tech Matrix Grid -->
@@ -44,42 +37,18 @@
 
     <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.9"/>
-    </feDropShadow></filter>
+    </filter>
   </defs>
-
-  <style>
-    @keyframes liquidWave {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-450px); }
-    }
-    @keyframes waterLaser {
-      0% { stroke-dashoffset: 2180; }
-      100% { stroke-dashoffset: 0; }
-    }
-    .wave-motion {
-      animation: liquidWave 7s linear infinite;
-    }
-    .laser-motion {
-      animation: waterLaser 5s linear infinite;
-    }
-  </style>
 
   <!-- Base Card Surface (Glass Texture) -->
   <rect width="900" height="200" rx="18" fill="url(#glassCanvas)"/>
   <rect width="900" height="200" rx="18" fill="url(#glassGrid)"/>
 
-  <!-- Liquid Water Moving Wave Streams (Pani Jaisa Smooth Flowing Background) -->
-  <g opacity="0.85">
-    <path class="wave-motion" d="M 0 170 Q 112 150 225 170 T 450 170 T 675 170 T 900 170 T 1125 170 T 1350 170 L 1350 200 L 0 200 Z" fill="url(#liquidGrad)"/>
-    <path class="wave-motion" style="animation-duration: 4.5s; opacity: 0.6;" d="M 0 176 Q 112 162 225 176 T 450 176 T 675 176 T 900 176 T 1125 176 T 1350 176 L 1350 200 L 0 200 Z" fill="url(#waterFlow)"/>
-  </g>
-
   <!-- Static Glass Border Inner Structure -->
   <rect x="1" y="1" width="898" height="198" rx="17" fill="none" stroke="#1F2433" stroke-width="1.2"/>
 
   <!-- Live Glowing Liquid Border Laser (Clearly & Visibly Gliding in Real Time) -->
-  <rect class="laser-motion" x="1.5" y="1.5" width="897" height="197" rx="17" fill="none" stroke="url(#waterFlow)" stroke-width="3" stroke-dasharray="240 850" stroke-linecap="round" filter="url(#liquidGlow)">
-    <!-- Fallback SMIL for engines that prefer native SVG animation -->
+  <rect x="1.5" y="1.5" width="897" height="197" rx="17" fill="none" stroke="url(#waterFlow)" stroke-width="3" stroke-dasharray="240 850" stroke-linecap="round" filter="url(#liquidGlow)">
     <animate attributeName="stroke-dashoffset" from="2180" to="0" dur="5s" repeatCount="indefinite"/>
   </rect>
 
@@ -89,16 +58,19 @@
   <path d="M 28 186 L 14 186 L 14 172" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round"/>
   <path d="M 872 186 L 886 186 L 886 172" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round"/>
 
+  <!-- Ambient Light Reflection -->
+  <ellipse cx="450" cy="95" rx="260" ry="50" fill="#00F2FE" opacity="0.05" filter="url(#liquidGlow)"/>
+
   <!-- Main Center Glass Typography Content -->
   <g text-anchor="middle" filter="url(#textGlow)">
     <!-- Main Architect Name (Futuristic Cyber-Architect Bold) -->
     <text x="450" y="74" fill="#FFFFFF" font-family="'Orbitron', 'Rajdhani', 'Space Grotesk', 'Chakra Petch', 'JetBrains Mono', -apple-system, sans-serif" font-size="34" font-weight="900" letter-spacing="3.5">RUCHIT GHOGHARI</text>
     
     <!-- Subtitle Specifier -->
-    <text x="450" y="107" fill="#94A3B8" font-family="'JetBrains Mono', 'Roboto Mono', 'SF Mono', monospace" font-size="12.5" font-weight="600" letter-spacing="2.2">SYSTEMS ARCHITECT • DISTRIBUTED ENGINES • AUTONOMOUS AI SYSTEMS</text>
+    <text x="450" y="108" fill="#94A3B8" font-family="'JetBrains Mono', 'Roboto Mono', 'SF Mono', monospace" font-size="12.5" font-weight="600" letter-spacing="2.2">SYSTEMS ARCHITECT • DISTRIBUTED ENGINES • AUTONOMOUS AI SYSTEMS</text>
 
     <!-- Glass Email Layout: No round box, flanked by sleek technical lines on left & right -->
-    <g transform="translate(450, 145)">
+    <g transform="translate(450, 148)">
       <!-- Left Precision Tech Line with Diamond Indicator -->
       <line x1="-280" y1="0" x2="-140" y2="0" stroke="#334155" stroke-width="1.5" stroke-dasharray="8 4"/>
       <polygon points="-138,-3.5 -133,0 -138,3.5 -143,0" fill="#00F2FE"/>
