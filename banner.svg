@@ -1,19 +1,38 @@
-<svg width="100%" height="160" viewBox="0 0 900 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="160" rx="16" fill="#0D0E12"/>
-  <rect x="0.5" y="0.5" width="899" height="159" rx="15.5" stroke="#23252E" stroke-opacity="0.8"/>
+<svg width="100%" height="180" viewBox="0 0 900 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="900" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090A0F"/>
+      <stop offset="50%" stop-color="#0E0F17"/>
+      <stop offset="100%" stop-color="#090A0F"/>
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0" y1="0" x2="300" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#181A24"/>
+      <stop offset="100%" stop-color="#12131B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="900" height="180" rx="16" fill="url(#bgGrad)"/>
+  <rect x="0.5" y="0.5" width="899" height="179" rx="15.5" stroke="#232634" stroke-opacity="0.9"/>
   
-  <!-- Subtle architectural accent glow -->
-  <circle cx="450" cy="80" r="140" fill="#181A22" filter="blur(60px)"/>
-  
-  <!-- Content -->
+  <!-- Subtle architectural lighting glow -->
+  <ellipse cx="450" cy="90" rx="220" ry="60" fill="#1C1E2B" opacity="0.4" filter="blur(30px)"/>
+
+  <!-- Typography Content -->
   <g text-anchor="middle">
     <!-- Main Name -->
-    <text x="450" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">Ruchit Ghoghari</text>
+    <text x="450" y="70" fill="#FFFFFF" font-family="'SF Pro Display', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="-0.8">Ruchit Ghoghari</text>
     
-    <!-- Title / Subheading -->
-    <text x="450" y="100" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="500" letter-spacing="0.8">Systems Architect • Distributed Engines • Autonomous AI Systems</text>
+    <!-- Architect Subtitle -->
+    <text x="450" y="103" fill="#A1A1AA" font-family="'SF Pro Text', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="0.4">Systems Architect • Distributed Engines • Autonomous AI Systems</text>
     
-    <!-- Official Email Badge Text -->
-    <text x="450" y="128" fill="#10B981" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="0.5">✉ ruchitghoghari@rgai.in</text>
+    <!-- Executive Email Pill Container -->
+    <g transform="translate(325, 124)">
+      <rect width="250" height="30" rx="15" fill="url(#pillGrad)" stroke="#2B2E3D" stroke-width="1"/>
+      <!-- Mail Icon -->
+      <path d="M22 10.5L30 16L38 10.5M20 9H40C40.5523 9 41 9.44772 41 10V20C41 20.5523 40.5523 21 40 21H20C19.4477 21 19 20.5523 19 20V10C19 9.44772 19.4477 9 20 9Z" stroke="#9CA3AF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Email Address -->
+      <text x="135" y="20" fill="#E4E4E7" font-family="'SF Pro Text', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="500" letter-spacing="0.2">ruchitghoghari@rgai.in</text>
+    </g>
   </g>
 </svg>
