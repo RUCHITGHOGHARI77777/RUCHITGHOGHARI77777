@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/RUCHITGHOGHARI77777/RUCHITGHOGHARI77777/main/banner.png" alt="Ruchit Ghoghari — Systems Architect • Distributed Engines • Autonomous AI Systems" width="100%" />
+  <img src="https://raw.githubusercontent.com/RUCHITGHOGHARI77777/RUCHITGHOGHARI77777/main/banner.gif" alt="Ruchit Ghoghari — Systems Architect • Distributed Engines • Autonomous AI Systems" width="100%" />
 
   <br/><br/>
 
