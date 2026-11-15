@@ -104,21 +104,6 @@ An enterprise-grade multi-vendor Indian craft and luxury commerce engine archite
 
 ---
 
-## 📊 GitHub Analytics & Operational Metrics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=RUCHITGHOGHARI77777&show_icons=true&theme=radical&hide_border=true&title_color=059669&icon_color=059669&text_color=ffffff&bg_color=0d1117" alt="Ruchit Ghoghari GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RUCHITGHOGHARI77777&layout=compact&theme=radical&hide_border=true&title_color=059669&text_color=ffffff&bg_color=0d1117" alt="Ruchit Ghoghari Top Languages" width="48%" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RUCHITGHOGHARI77777&theme=radical&hide_border=true&stroke=059669&background=0d1117&ring=059669&fire=059669&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=059669&sideLabels=ffffff&dates=ffffff" alt="Ruchit Ghoghari GitHub Streak" width="97%" />
-
-</div>
-
----
-
 ## 🌐 Connect With Me
 
 Whether you are looking to hire a Lead Systems Architect, discuss high-concurrency e-commerce architectures, or explore autonomous AI systems collaboration:
