@@ -1,11 +1,14 @@
 <div align="center">
 
-  <img src="./banner.svg" alt="Ruchit Ghoghari — Systems Architect • Distributed Engines • Autonomous AI Systems" width="100%" />
+# `⚡ RUCHIT GHOGHARI ⚡`
+### 🏛️ Lead Systems Architect • Distributed Engines • Autonomous AI Systems
 
-  <br/><br/>
+`───◆─── ✉ ruchitghoghari@rgai.in ───◆───`
+
+<br/>
 
 [![Official Website](https://img.shields.io/badge/Official_Website-rgai.in-059669?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rgai.in)
-[![Direct Email](https://img.shields.io/badge/Email-ruchitghoghari%40rgai.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ruchitghoghari@rgai.in)
+[![Direct Email](https://img.shields.io/badge/Direct_Email-ruchitghoghari%40rgai.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ruchitghoghari@rgai.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ruchit_Ghoghari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/ruchit-ghoghari)
 [![GitHub](https://img.shields.io/badge/GitHub-RUCHITGHOGHARI77777-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RUCHITGHOGHARI77777)
 [![X / Twitter](https://img.shields.io/badge/X-@RuchitGhoghari-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/RuchitGhoghari)
