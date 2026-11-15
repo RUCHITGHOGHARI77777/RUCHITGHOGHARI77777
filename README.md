@@ -1,9 +1,11 @@
-# Hi there, I'm Ruchit Ghoghari 👋
-### Lead Systems Architect • Full-Stack Engineer • Autonomous AI Systems Pioneer
-
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Official_Website-rgai.in-059669?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rgai.in)
+  <img src="https://raw.githubusercontent.com/RUCHITGHOGHARI77777/RUCHITGHOGHARI77777/main/banner.svg" alt="Ruchit Ghoghari — Systems Architect • Distributed Engines • Autonomous AI Systems" width="100%" />
+
+  <br/><br/>
+
+[![Official Website](https://img.shields.io/badge/Official_Website-rgai.in-059669?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rgai.in)
+[![Direct Email](https://img.shields.io/badge/Email-ruchitghoghari%40rgai.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ruchitghoghari@rgai.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ruchit_Ghoghari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/ruchit-ghoghari)
 [![GitHub](https://img.shields.io/badge/GitHub-RUCHITGHOGHARI77777-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RUCHITGHOGHARI77777)
 [![X / Twitter](https://img.shields.io/badge/X-@RuchitGhoghari-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/RuchitGhoghari)
@@ -110,6 +112,7 @@ Whether you are looking to hire a Lead Systems Architect, discuss high-concurren
 
 | Platform | Channel | Link |
 | :--- | :--- | :--- |
+| **Direct Executive Email** | `ruchitghoghari@rgai.in` | [Send Email](mailto:ruchitghoghari@rgai.in) |
 | **Official Systems Platform** | `rgai.in` | [Visit Website](https://rgai.in) |
 | **LinkedIn** | `in/ruchit-ghoghari` | [Connect on LinkedIn](https://in.linkedin.com/in/ruchit-ghoghari) |
 | **GitHub** | `@RUCHITGHOGHARI77777` | [Follow on GitHub](https://github.com/RUCHITGHOGHARI77777) |
